@@ -1,5 +1,7 @@
 # Frequency-decoupled Quality Assessment Network for RGBT Tracking
 
+Notice: Our paper is in the review stage, and the current code cannot run normally. If accepted, we will make all the code public.
+
 ### Environment Installation
 Create and activate a conda environment:
 ```
