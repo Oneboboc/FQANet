@@ -19,19 +19,18 @@ $<PATH_of_Datasets>
 ```
 
 ### Path Setting
-Run the following command to set paths:
+Run the following command to set paths for this project
 ```
-cd <PATH_of_BAT>
-python tracking/create_default_local_file.py --workspace_dir . --data_dir <PATH_of_Datasets> --save_dir ./output
+python tracking/create_default_local_file.py --workspace_dir . --data_dir ./data --save_dir ./output
 ```
-You can also modify paths by these two files:
+After running this command, you can also modify paths by editing these two files
 ```
-./lib/train/admin/local.py  # paths for training
-./lib/test/evaluation/local.py  # paths for testing
+lib/train/admin/local.py  # paths about training
+lib/test/evaluation/local.py  # paths about testing
 ```
 
 ### Training
-Dowmload the pretrained [foundation model]DropTrack
+Dowmload the pretrained [DropTrack]
 and put it under ./pretrained/.
 ```
 python tracking/train.py --script tbsi_track --config rgbt --save_dir ./output/rgbt --mode single
