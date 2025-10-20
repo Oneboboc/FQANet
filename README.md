@@ -49,5 +49,5 @@ You can also use `eval/eval_lasher.py` to evaluate the results on the LasHeR dat
 
 
 ## Acknowledgment
-- This repo is based on [TBSI]([https://github.com/SparkTempest/BAT](https://github.com/RyanHTR/TBSI)) which is an exellent work, helps us to quickly implement our ideas.
+- This repo is based on [TBSI](https://github.com/RyanHTR/TBSI) which is an exellent work, helps us to quickly implement our ideas.
 - Thanks for the [OSTrack](https://github.com/botaoye/OSTrack) library.
