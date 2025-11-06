@@ -1,4 +1,4 @@
-# Frequency-decoupled Quality Assessment Network for RGBT Tracking
+# Frequency-based Adaptive Fusion Network for RGBT Tracking
 
 Notice: Our paper is in the review stage, and the current code cannot run normally. If accepted, we will make all the code public.
 
